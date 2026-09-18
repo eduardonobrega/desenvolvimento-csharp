@@ -1,0 +1,46 @@
+namespace Ex05;
+
+public class Ingresso
+{
+    private string nomeDoShow;
+    private double preco;
+    private int quantidadeDisponivel;
+    
+    
+    // Getters 
+    public string GetNomeDoShow() => nomeDoShow;
+    public double GetPreco() => preco;
+    public int GetQuantidadeDisponivel() => quantidadeDisponivel;
+   
+
+    // Setters
+    public void SetNomeDoShow(string nomeDosShow)
+    {
+        if (!string.IsNullOrWhiteSpace(nomeDosShow))
+        {
+            this.nomeDoShow = nomeDosShow;
+        }
+    }
+
+    public void SetPreco(double preco)
+    {
+        if (preco > 0)
+        {
+            this.preco = preco;
+        } 
+    }
+
+    public void SetQuantidadeDisponivel(int quantidadeDisponivel)
+    {
+        if (quantidadeDisponivel >= 0)
+        {
+            this.quantidadeDisponivel = quantidadeDisponivel;
+        }
+    }
+    
+    
+    public void ExibirInformacoes() 
+    {
+        Console.WriteLine($"Nome: {this.nomeDoShow} | Preço: R$ {this.preco:F2} | Quantidade Disponivel: {this.quantidadeDisponivel}");
+    }
+}
