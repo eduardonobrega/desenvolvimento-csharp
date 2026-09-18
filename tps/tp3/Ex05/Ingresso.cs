@@ -14,11 +14,11 @@ public class Ingresso
    
 
     // Setters
-    public void SetNomeDoShow(string nomeDosShow)
+    public void SetNomeDoShow(string nomeDoShow)
     {
-        if (!string.IsNullOrWhiteSpace(nomeDosShow))
+        if (!string.IsNullOrWhiteSpace(nomeDoShow))
         {
-            this.nomeDoShow = nomeDosShow;
+            this.nomeDoShow = nomeDoShow;
         }
     }
 
