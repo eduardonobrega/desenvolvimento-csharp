@@ -2,22 +2,16 @@ namespace Ex03;
 
 public class Ingresso
 {
-    public string NomeDoShow { get; set; }
-    public double Preco { get; private set; }     
-    public int QuantidadeDisponivel { get; private set; }
+    public string nomeDoShow;
+    public double preco;
+    public int quantidadeDisponivel;
     
-    public Ingresso(string nomeDoShow, double preco, int quantidadeDisponivel)
-    {
-        NomeDoShow = nomeDoShow;
-        AlterarPreco(preco);
-        AlterarQuantidade(quantidadeDisponivel);
-    }
 
     public void AlterarPreco(double novoPreco)
     {
         if (novoPreco > 0)
         {
-           Preco = novoPreco;
+           this.preco = novoPreco;
         }
     }
 
@@ -25,12 +19,12 @@ public class Ingresso
     {
         if (novaQuantidade >= 0)
         {
-            QuantidadeDisponivel = novaQuantidade;
+            this.quantidadeDisponivel = novaQuantidade;
         }
     }
     
     public void ExibirInformacoes() 
     {
-        Console.WriteLine($"Nome: {NomeDoShow} | Preço: R$ {Preco:F2} | Quantidade Disponivel: {QuantidadeDisponivel}");
+        Console.WriteLine($"Nome: {this.nomeDoShow} | Preço: R$ {this.preco:F2} | Quantidade Disponivel: {this.quantidadeDisponivel}");
     }
 }
