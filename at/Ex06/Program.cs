@@ -1,4 +1,4 @@
-﻿namespace Ex05;
+﻿namespace Ex06;
 
 class Program
 {
