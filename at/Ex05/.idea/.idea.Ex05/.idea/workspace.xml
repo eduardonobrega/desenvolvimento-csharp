@@ -4,15 +4,7 @@
     <projectFile>Ex05.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48cd713c-9b67-42ea-b906-52d4bd74366f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Ex05/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Ex05/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Ex05/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Ex05/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex05.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex05.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
-    </list>
+    <list default="true" id="48cd713c-9b67-42ea-b906-52d4bd74366f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,6 +83,8 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="ex05" />
+    <option name="LAST_COMMIT_MESSAGE" value="ex05" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
